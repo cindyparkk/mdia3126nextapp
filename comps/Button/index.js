@@ -22,7 +22,6 @@ const ButtonBox = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    // margin-bottom: 10px;
 `;
 
 // const ButtonImage = styled.div`
