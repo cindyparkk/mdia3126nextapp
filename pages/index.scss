@@ -1,0 +1,41 @@
+// .home {
+//     .menu {
+//         position: relative;
+//         z-index: 1;
+//     }
+
+//     .content {
+//         position: fixed;
+//         left: 0;
+//         top: 0;
+//         width: 100vw;
+//         height: 100vh;
+//         z-index: -1;
+
+//         & > div {
+//             @include flexIt();
+//             flex-direction: column;
+//         }
+//     }
+// }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body, html {
+    font-family: "Roboto", sans-serif;
+}
+
+input {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 38px;
+    font-weight: 700;
+}

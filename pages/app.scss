@@ -1,0 +1,17 @@
+// used to make resuable styles
+// making global font size
+$fs:18px;
+
+// adding a mixin
+@mixin flexIt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+// reduces repetition
+// can use if, else
+
+// also used for including importing css from other places
+// i.e.
+@import './index.scss';
+// so that all scss files are compiled in one
